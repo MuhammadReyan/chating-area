@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullsize {
+    height: 100vh;
+    width: 100vw;
+}
+
+#chatside {
+    background-image: url('https://blog.1a23.com/wp-content/uploads/sites/2/2020/02/Desktop.png');
+    height: 100%;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#textarea {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin: 0 350px;
+    justify-content: space-around;
+}
+
+i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#textarea input {
+    background: transparent;
+    border: none;
+    color: white;
+    width: 70%;
+}
+
+#textarea input:focus {
+    outline: none;
+}
+
+#textarea input::placeholder {
+    color: white;
+}
+
+.avatar img {
+    object-fit: contain;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+
+.avataruser {
+    order: 2;
+}
+
+.firstuser {
+    display: flex;
+    align-items: flex-end;
+}
+
+.textbox {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.textboxleft {
+    color: black;
+    font-weight: bold;
+    border-bottom-left-radius: 0;
+}
+
+.textboxright {
+    color: black;
+    font-weight: bold;
+    border-bottom-right-radius: 0;
+}
+
+.chatboxuser {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.chatboxclicent {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.name {
+    position: absolute;
+    bottom: -20px;
+    color: white;
+    font-size: 20px;
+}
