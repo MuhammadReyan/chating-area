@@ -108,3 +108,80 @@ i {
     color: white;
     font-size: 20px;
 }
+
+/* Tablet */
+@media(min-width: 501px) and (max-width: 768px) {
+
+    #chatside {
+        width: 100%;
+    }
+
+    .chatboxuser {
+        margin-bottom: 100px;
+    }
+
+    .chatboxclicent {
+        margin-bottom: 100px;
+    }
+
+    #smartphone h1 {
+        display: block;
+    }
+}
+
+@media(min-width: 280px) and (max-width: 844px) {
+
+    #chatside {
+        width: 100%;
+    }
+
+    .chatboxuser {
+        margin-bottom: 100px;
+    }
+
+    .chatboxclicent {
+        margin-bottom: 80px;
+    }
+
+    #smartphone h1 {
+        display: block;
+    }
+
+}
+
+/* Normal */
+@media(min-width: 769px) and (max-width: 1200px) {
+
+    #chatside {
+        width: 100%;
+    }
+
+    #normal h1 {
+        display: block;
+    }
+}
+
+/* Widescreen */
+@media(min-width: 1201px) {
+
+
+    #widescreen h1 {
+        display: block;
+    }
+}
+
+/* Meri Query */
+@media(max-width: 900px) {
+    #textarea {
+        margin: 0 100px;
+    }
+}
+
+/* Landscape */
+@media(max-height: 500px) {
+
+    #landscape h1 {
+        display: block;
+    }
+
+}
